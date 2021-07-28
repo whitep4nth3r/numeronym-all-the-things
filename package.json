@@ -1,0 +1,16 @@
+{
+  "name": "@whitep4nth3r/numeronym-all-the-things",
+  "version": "1.0.0",
+  "description": "A silly bit of code to transform text input to numeronyms.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d dist",
+    "test": "jest"
+  },
+  "author": "whitep4nth3r",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
