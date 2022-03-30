@@ -1,11 +1,17 @@
 # Numeronym all the things
 
-or
+Turn all your words into numeronyms.
 
-## n7m a1l t1e t4s
+## To install
 
-Usage:
+```
+npm install @whitep4nth3r/numeronym-all-the-things
+```
+
+## To use
 
 ```javascript
+import { makeNumeronym } from "@whitep4nth3r/numeronym-all-the-things";
+
 const allTheNumeronyms = makeNumeronym(words);
 ```

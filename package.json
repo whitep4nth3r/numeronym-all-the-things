@@ -1,9 +1,13 @@
 {
   "name": "@whitep4nth3r/numeronym-all-the-things",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A silly bit of code to transform text input to numeronyms.",
   "main": "index.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/whitep4nth3r/numeronym-all-the-things.git"
+  },
   "scripts": {
     "build": "babel src -d dist && cp src/index.d.ts dist/index.d.ts",
     "test": "jest"
